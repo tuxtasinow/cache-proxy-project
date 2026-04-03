@@ -1,0 +1,13 @@
+[Unit]
+Description=Backend API Service
+After=network.target postgresql.service
+
+[Service]
+ExecStart=/usr/local/bin/backend-api
+Restart=always
+Environment="CONFIG_PATH=/etc/backend-api/config.yaml"
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
