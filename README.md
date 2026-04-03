@@ -18,4 +18,4 @@ sudo rpm -ivh --nodeps RPMs/noarch/proxy-api-1.0-1.el10.noarch.rpm
 ```
 
 ## Правила iptables
-Запустите `rules.sh` и `rules.sh` на соответствующих ВМ.
+Запустите `rules.sh` на соответствующих ВМ.
