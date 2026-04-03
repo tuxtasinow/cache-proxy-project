@@ -1,7 +1,7 @@
 database:
 host: "localhost"
 port: "5432"
-user: "bakhtiyar"
-password: "bakhtiyar"
-name: "test"
+user: "tetsuser"
+password: "testpass"
+dbname: "test"
 sslmode: "disable"
